@@ -1,0 +1,393 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/* Header */
+
+body{
+background-color: rgb(218, 218, 218);
+font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.icon-xl{
+    font-size: 50px;
+    }
+
+.icon-lg{
+font-size: 35px;
+}
+
+.icon-md{
+ font-size: 25px;
+}
+
+i{
+    font-style: normal;
+}
+
+.link-hover:hover{
+    color: rgb(137, 172, 202) !important;
+}
+
+/* Top Nav Bar */
+
+.nav-top-contain{   
+    width: 100%;
+    position: relative;
+    margin:auto;
+
+}
+.nav-top-right{
+    flex-direction: row !important;
+    text-align: end;
+}
+
+nav{
+    padding: 0px !important;
+}
+
+
+.top-nav-left{
+    justify-content: flex-end;
+    text-align: end;
+}
+.top-nav-right-pad{
+    padding-bottom: 8px;
+}
+
+.nav-top{
+background-color: #1a3b96;
+color: #fff !important;
+padding: 0px !important;
+font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+/* Main Nav Bar */
+.nav-main{
+background-color: rgb(190, 208, 224);
+color: #000;
+font-size: 25px ;
+font-family:'Zen Kaku Gothic New', sans-serif;
+justify-content: left;
+;
+}
+
+.nav-logo-text{
+    color: #1a3b96;
+    text-decoration: none;
+    font-size: 50px ;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bolder;
+}
+
+#main-logo{ 
+    width:150px; 
+    height:150px;
+}
+.nav-link-menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+ 
+
+/* Promotion Bar */
+p.navbar-text{
+	display:flex;
+  	justify-content: center;
+  	align-items: center;
+
+}
+
+p.promo-front-pg{
+padding: 0px !important;
+margin: 0px  0px 2px 0px !important;
+text-align: center;
+font-family: 'Zen Kaku Gothic New', sans-serif;
+color:rgb(255, 255, 255) !important;
+
+}
+
+
+.nav-bottom{
+    background-color: rgb(39, 85, 17);
+    height: 35px;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+/* Carousel */
+
+
+
+/* What's New */
+
+
+
+/* Featured Product */
+
+
+
+/* Locations & Times */
+
+
+
+/* Footer */
+
+.footer-contact{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.footer-logo-row{
+    
+    
+}
+.footer-menu-row{
+    columns: 12;
+}
+.footer-menu-social-logo{
+    color:#fff !important;
+    font-size: 50px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+}
+
+.footer-menu-contact{
+    color:#fff !important;
+    font-size: 16px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+
+}
+.footer-style{
+    background-color:  rgb(39, 85, 17);
+}
+
+.bottom-menu{
+    font-weight: bolder;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: #fff !important;
+}
+#main-bottom-logo{
+width: 250px;
+height: 250px;
+
+}
+
+
+/* Media */
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+
+    .dropdown-menu.show:{
+        max-width: 15px !important;
+        min-width: 15px !important;
+        width: 15px !important;
+    }
+    .nav-sub-text{
+        font-size: 15px;
+    }
+    .nav-main-text{
+        font-size: 15px;
+    }
+    .footer-menu-contact{
+        color:#fff !important;
+        font-size: 10px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social-logo{
+        color:#fff !important;
+        font-size: 25px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social{
+        padding: 0 !important;
+    }
+  
+    .footer-menu-main{
+        font-size: 10px;
+        padding: 0 !important;
+        margin: 0 !important;
+    
+        
+
+    }
+    .footer-menu-side{
+        font-size: 10px;
+    }
+    .bottom-site-logo{
+        display: none;
+        visibility:hidden;
+        transition;
+        columns: 1;
+        width: 0px;
+    }
+    .page-footer{
+        display:fluid !important;
+    }
+    .footer-logo-row{
+        display: none;
+        }
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 768px) {
+      
+    .dropdown-menu.show:{
+        max-width: 18px !important;
+        min-width: 18px !important;
+        width: 18px !important;
+    }
+    .nav-sub-text{
+        font-size: 15px;
+    }
+    .nav-main-text{
+        font-size: 18px;
+    }
+    #main-bottom-logo{
+        width: 200px;
+        height: 200px;
+    }
+    .nav-main-text{
+        font-size: 20px;
+        padding-left: 20px !important;
+    }
+    .nav-logo-text{
+        font-size: 35px;
+    }
+    .footer-menu-contact{
+        color:#fff !important;
+        font-size: 10px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social-logo{
+        color:#fff !important;
+        font-size: 25px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social{
+        display:block
+    }
+  
+    .footer-menu-main{
+        font-size: 10px;
+        display:flex;
+        margin-top: 30px !important;
+    }
+    .footer-menu-side{
+        font-size: 10px;
+        display:flex;
+        margin-top: 30px !important;
+        flex-direction: row;
+    }
+    .footer-site-logo{
+        columns: 1;
+        width: 0px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        
+    }
+    .bi-pinterest{
+        width: 25px ;
+    }
+    .footer-contact-icon{
+        display: none;
+    }
+}
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 769px) {
+
+    .dropdown-menu.show:{
+        max-width: 20px !important;
+        min-width: 20px !important;
+        width: 20px !important;
+    }
+    .nav-main-text{
+        font-size: 20px;
+        padding-left: 20px !important;
+    }
+    .nav-link-menu{
+        flex-direction: row;
+    }
+    .nav-logo-text{
+        font-size: 35px;
+    }
+    #main-bottom-logo{
+        width: 200px;
+        height: 200px;
+    }
+    .footer-menu-contact{
+        color:#fff !important;
+        font-size: 15px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+        
+    }
+    .footer-menu-social-logo{
+        color:#fff !important;
+        font-size: 40px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+        
+    }
+    .footer-site-logo{
+        display: flex;
+     
+    }
+    
+} 
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 993px) {
+
+    .nav-main-text{
+        font-size: 25px;
+    }
+    .nav-logo-text{
+        font-size: 40px;
+    }
+    #main-bottom-logo{
+        width: 250px;
+        height: 250px;
+    }
+    .footer-menu-contact{
+        color:#fff !important;
+        font-size: 18px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social-logo{
+        color:#fff !important;
+        font-size: 50px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+
+
+
+}
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+    .nav-logo-text{
+        font-size: 50px;
+    }
+    #main-bottom-logo{
+        width: 250px;
+        height: 250px;
+    }
+    .footer-menu-contact{
+        color:#fff !important;
+        font-size: 18px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social-logo{
+        color:#fff !important;
+        font-size: 50px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .nav-logo-text{
+        font-size: 50px;
+    }
+
+} 
