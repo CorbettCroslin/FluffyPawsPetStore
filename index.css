@@ -1,12 +1,15 @@
 /* Imports */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
+
 /* Header */
 
+
 body{
-background-color: rgb(218, 218, 218);
+background-color: #fff;
 font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
@@ -30,69 +33,59 @@ i{
     color: rgb(137, 172, 202) !important;
 }
 
-/* Top Nav Bar */
-
-.nav-top-contain{   
-    width: 100%;
-    position: relative;
-    margin:auto;
-
-}
-.nav-top-right{
-    flex-direction: row !important;
-    text-align: end;
-}
-
-nav{
-    padding: 0px !important;
-}
-
-
-.top-nav-left{
-    justify-content: flex-end;
-    text-align: end;
-}
-.top-nav-right-pad{
-    padding-bottom: 8px;
-}
-
-.nav-top{
-background-color: #1a3b96;
-color: #fff !important;
-padding: 0px !important;
-font-family: 'Zen Kaku Gothic New', sans-serif;
-}
 
 /* Main Nav Bar */
-.nav-main{
-background-color: rgb(190, 208, 224);
+
+
+.main-nav-container{
+background-color: #1a3b96;
 color: #000;
 font-size: 25px ;
 font-family:'Zen Kaku Gothic New', sans-serif;
 justify-content: left;
-;
+height: 225px;
+padding: 0 !important;
+
 }
 
-.nav-logo-text{
-    color: #1a3b96;
+span.nav-logo-text{
+    color: #fff;
     text-decoration: none;
-    font-size: 50px ;
+    font-size: 50px;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: bolder;
 }
 
 #main-logo{ 
-    width:150px; 
-    height:150px;
+    width:225px; 
+    height:200px;
 }
 .nav-link-menu{
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    justify-content: baseline;
+    
+
+  
 }
- 
+.nav-main-text{
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.login-cart-contain{
+    
+}
+
+
 
 /* Promotion Bar */
+nav{
+    padding: 0px !important;
+}
+
 p.navbar-text{
 	display:flex;
   	justify-content: center;
@@ -101,37 +94,223 @@ p.navbar-text{
 }
 
 p.promo-front-pg{
-padding: 0px !important;
-margin: 0px  0px 2px 0px !important;
-text-align: center;
-font-family: 'Zen Kaku Gothic New', sans-serif;
-color:rgb(255, 255, 255) !important;
+    padding: 0px !important;
+    margin: 0px  0px 3px 0px !important;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: #1a3b96 !important;
+    font-weight: bolder;
+    font-size: 25px;
 
 }
 
-
 .nav-bottom{
-    background-color: rgb(39, 85, 17);
+    background-color: rgb(179, 179, 179);
     height: 35px;
     padding: 0px !important;
     margin: 0px !important;
+    text-align: center;
+    width: 100%;
 }
-/* Carousel */
+
+
+/* Main Carousel */
+
+
+#carouselMainPage{
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    margin: auto;
+    
+
+}
+.carousel.indicator{
+    padding: none;
+    margin: none;
+    justify-content: center;
+
+}
+
+.cara-img{
+    width: 100%;
+    height: 600px;
+
+}
+.carousel-margin{
+    margin: 0 !important;
+}
+/* main container */
+
+#MainContainer{
+    width: 100%;
+    margin: auto;
+}
 
 
 
-/* What's New */
+
+/* adoption */
+
+
+#Adoption{
+    justify-content:space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+h5{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    
+}
+.adoption-center{
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+
+}
+
+.main-containers-content{
+background-color: rgb(212, 222, 236);
+border-radius: 5%;
+}
+.container-hover-img {
+    position: relative;
+}
+  
+
+
+#container {
+    position: relative;
+    width: 50%;
+  }
+  
+#image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 350px !important;
+    height: 300px !important;
+  }
+  
+#middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+#container:hover #image {
+    opacity: 0.7;
+  }
+  
+#container:hover #middle {
+    opacity: 1;
+  }
+  
+#text {
+    
+    color: black;
+    font-size: 30px;
+    padding: 16px 32px;
+    font-weight: bolder;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+  }
+
+
 
 
 
 /* Featured Product */
+/* Carousel */
 
+
+#Feature{
+    width: 635px;
+    height: 600px ;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 0px;
+    
+}
+
+.inner-feature{
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 10px;
+    border-color: #4d6abb;
+    border-style:solid;
+    border-width: 10px;
+    border-radius: 15%;
+}
+.carousel-icons-feature{
+    filter: invert(100%);
+}
+h4{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bolder;
+}
 
 
 /* Locations & Times */
 
 
+#LocationTime{
+    margin: 30px !important; 
+    padding: 0px !important;
+    flex-direction: row;
+    
+    
+}
+.main-page-content{
+    background-color: rgb(196, 196, 196);
 
+}
+.LocationTimes{
+flex-direction: row;
+}
+.LocTimeHeader{
+text-align: center;
+
+}
+#Loc{
+    list-style-type: none;
+}
+#Loc li {
+    text-align: center;
+    font-size: 16px;
+   display: flex;
+   flex-direction: column;
+}
+h3{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    
+}
+h6{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.LocTime-text p{
+    font-size: 18px;
+
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
 /* Footer */
 
 .footer-contact{
@@ -141,10 +320,6 @@ color:rgb(255, 255, 255) !important;
     
 }
 
-.footer-logo-row{
-    
-    
-}
 .footer-menu-row{
     columns: 12;
 }
@@ -162,6 +337,7 @@ color:rgb(255, 255, 255) !important;
 }
 .footer-style{
     background-color:  rgb(39, 85, 17);
+    margin-top: 30px;
 }
 
 .bottom-menu{
@@ -169,6 +345,7 @@ color:rgb(255, 255, 255) !important;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     color: #fff !important;
 }
+
 #main-bottom-logo{
 width: 250px;
 height: 250px;
@@ -210,8 +387,6 @@ height: 250px;
         font-size: 10px;
         padding: 0 !important;
         margin: 0 !important;
-    
-        
 
     }
     .footer-menu-side{
@@ -255,9 +430,9 @@ height: 250px;
         font-size: 20px;
         padding-left: 20px !important;
     }
-    .nav-logo-text{
+    /* .nav-logo-text{
         font-size: 35px;
-    }
+    } */
     .footer-menu-contact{
         color:#fff !important;
         font-size: 10px;
@@ -301,21 +476,7 @@ height: 250px;
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 769px) {
 
-    .dropdown-menu.show:{
-        max-width: 20px !important;
-        min-width: 20px !important;
-        width: 20px !important;
-    }
-    .nav-main-text{
-        font-size: 20px;
-        padding-left: 20px !important;
-    }
-    .nav-link-menu{
-        flex-direction: row;
-    }
-    .nav-logo-text{
-        font-size: 35px;
-    }
+
     #main-bottom-logo{
         width: 200px;
         height: 200px;
@@ -341,12 +502,7 @@ height: 250px;
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 993px) {
 
-    .nav-main-text{
-        font-size: 25px;
-    }
-    .nav-logo-text{
-        font-size: 40px;
-    }
+
     #main-bottom-logo{
         width: 250px;
         height: 250px;
@@ -369,9 +525,6 @@ height: 250px;
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
 
-    .nav-logo-text{
-        font-size: 50px;
-    }
     #main-bottom-logo{
         width: 250px;
         height: 250px;
@@ -386,8 +539,6 @@ height: 250px;
         font-size: 50px;
         font-family: 'Zen Kaku Gothic New', sans-serif; 
     }
-    .nav-logo-text{
-        font-size: 50px;
-    }
+
 
 } 
