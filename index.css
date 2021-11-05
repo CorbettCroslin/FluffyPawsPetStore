@@ -65,6 +65,7 @@ span.nav-logo-text{
     justify-content: flex-end;
     flex-direction: row;
     justify-content: baseline;
+    margin-top: 1git0px;
     
 
   
@@ -170,7 +171,8 @@ h5{
 .adoption-center{
     text-align: center;
     font-family: 'Zen Kaku Gothic New', sans-serif;
-
+    justify-content: center;
+    text-align: center;
 }
 
 .main-containers-content{
@@ -188,6 +190,7 @@ margin-right: 20px;
 #container {
     position: relative;
     width: 50%;
+
   }
   
 #image {
@@ -259,7 +262,7 @@ margin-right: 20px;
     border-color: #5a74bd;
     border-style:solid;
     border-width: 10px;
-    border-radius: 15%;
+    border-radius: 5%;
 }
 .carousel-icons-feature{
     filter: invert(100%);
@@ -282,7 +285,7 @@ h4{
 }
 .main-page-content{
     background-color: rgb(223, 223, 223);
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .LocationTimes{
 flex-direction: row;
@@ -341,7 +344,7 @@ h6{
 
 }
 .footer-style{
-    background-color:  rgb(39, 85, 17);
+    background-color:  #1a3b96;
     margin-top: 30px;
 }
 
@@ -481,7 +484,15 @@ height: 250px;
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 769px) {
 
-
+    #image {
+        opacity: 1;
+        display: block;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        width: 325px !important;
+        height: 325px !important;
+      }
     #main-bottom-logo{
         width: 200px;
         height: 200px;
