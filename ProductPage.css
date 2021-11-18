@@ -1,0 +1,361 @@
+/* Imports */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+
+
+/* Header */
+
+
+body{
+background-color: #fff;
+font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.icon-xl{
+    font-size: 50px;
+    }
+
+.icon-lg{
+font-size: 35px;
+}
+
+.icon-md{
+ font-size: 25px;
+}
+
+i{
+    font-style: normal;
+}
+
+.link-hover:hover{
+    color: rgb(137, 172, 202) !important;
+}
+
+
+/* Main Nav Bar */
+
+
+.main-nav-container{
+background-color: #1a3b96;
+color: #000;
+font-size: 25px ;
+font-family:'Zen Kaku Gothic New', sans-serif;
+justify-content: left;
+height: 225px;
+padding: 0 !important;
+
+}
+
+span.nav-logo-text{
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bolder;
+    text-align: left !important;
+}
+
+#main-logo{ 
+    width:225px; 
+    height:200px;
+}
+.nav-link-menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: baseline;
+    /* margin-top: px; */
+    text-align: end;
+    
+
+  
+}
+.nav-main-text{
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.login-cart-contain{
+text-align: right;
+position: relative;
+bottom: 50px;
+}
+.sign-in-sec{
+    font-size: 28px;
+}
+
+
+
+/* Promotion Bar */
+
+
+nav{
+    padding: 0px !important;
+}
+
+p.navbar-text{
+	display:flex;
+  	justify-content: center;
+  	align-items: center;
+
+}
+
+p.promo-front-pg{
+    padding: 0px !important;
+    margin: 0px  0px 3px 0px !important;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: #1a3b96 !important;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 30px; 
+
+}
+
+.nav-bottom{
+    background-color: rgb(179, 179, 179);
+    height: 35px;
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+/* Main Content */
+#dogShop, #catShop, #fishShop, #smallAnShop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#myButton{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+    color:#1a3b96;
+    font-size: 75px;
+    font-family:'Prompt', sans-serif; 
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+strike{
+    color: red !important;
+}
+
+/* Product items */
+
+div.containerPP{
+    display:flex;
+    flex-wrap:wrap ;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+div.innerContainerPP{
+    width: 350px !important;
+    height: 425px !important;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h5.productPP{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+img.imagePP{
+    width: 200px !important;
+    height: 250px !important;
+
+}
+.pricePP{
+    font-size: 18px;
+    font-weight:normal;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+
+}
+.productPP{
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+}
+
+/* Product Buttons */
+
+.innerContainerPP{
+    position:relative;
+}
+
+.buttonPP{
+    background-color: #1a3b96;
+    color: #fff;
+    border-color:darkblue;
+    border-width: 3px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+    position:absolute;
+    bottom: 0;
+    margin: auto;
+    
+}
+
+.buttonPP:hover{
+    background-color: #586faf;
+    color: #fff;
+    border-color:darkblue;
+    border-width: 3px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+    position:absolute;
+    bottom: 0;
+}
+
+.buttonDis{
+    background-color: #ffffff;
+    color:#1a3b96;
+    border-color:darkblue;
+    border-width: 3px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+    margin: 0;
+    padding: 0;
+    
+}
+.buttonDis:hover{
+    background-color: #586faf;
+    color: #fff;
+    border-color:darkblue;
+    border-width: 3px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+}
+/* scroll up button */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 400px;
+    right: 30px;
+    display: none;
+    height: 65px;
+    width: 65px;
+    border-color: #0044ff;
+    border-style:solid;
+    border-width: 5px;
+    border-radius: 50%;
+    background-color: white;
+  }
+.button-arrow{
+    position: fixed;
+    bottom: 395px;
+    right: 30px;
+    height: 65px !important;
+    width: 65px !important;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(9, 11, 104);
+    text-align: center;
+}
+
+/* Footer */
+
+.footer-contact{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.footer-menu-row{
+    columns: 12;
+}
+.footer-menu-social-logo{
+    color:#fff !important;
+    font-size: 50px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+}
+
+.footer-menu-contact{
+    color:#fff !important;
+    font-size: 16px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+
+}
+.footer-style{
+    background-color:  #1a3b96;
+    margin-top: 30px;
+}
+
+.bottom-menu{
+    font-weight: bolder;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: #fff !important;
+}
+
+#main-bottom-logo{
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.footer-main-links{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    justify-content: right;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+.footer-main-links-sub1{
+padding-left: 25%;
+font-weight: normal;
+margin-top: 30px;
+}
+.footer-main-links-sub2{
+    font-weight: normal;
+    text-align: left;
+    justify-content: left;
+    margin-top: 30px;
+}
+.footer-menu-main{
+ font-size: 20px;
+ font-weight: normal !important;
+
+}
+h2.footer-h2{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.footer-logo-row{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Media */
+
+   /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} 
+
