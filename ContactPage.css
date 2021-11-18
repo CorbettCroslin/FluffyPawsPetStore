@@ -51,7 +51,7 @@ padding: 0 !important;
 span.nav-logo-text{
     color: #fff;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: bolder;
     text-align: left !important;
@@ -301,20 +301,35 @@ h1{
 
 }
 
-
 /* Media */
 
-   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+    .nav-logo-media{
+        text-align: center;
+    }
+    span.nav-logo-text{
+        font-size: 50px;
+     }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (max-width: 767px) {
+    .nav-logo-media{
+        text-align: center;
+    }
+    span.nav-logo-text{
+        font-size: 50px;
+     }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...} 
+ }
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {...}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {...} 

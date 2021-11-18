@@ -52,7 +52,7 @@ padding: 0 !important;
 span.nav-logo-text{
     color: #fff;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: bolder;
     text-align: left !important;
@@ -252,174 +252,33 @@ h1{
 
 /* Media */
 
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-
-    .dropdown-menu.show:{
-        max-width: 15px !important;
-        min-width: 15px !important;
-        width: 15px !important;
-    }
-    .nav-sub-text{
-        font-size: 15px;
-    }
-    .nav-main-text{
-        font-size: 15px;
-    }
-    .footer-menu-contact{
-        font-size: 10px;
-    }
-    .footer-menu-social-logo{
-        font-size: 25px;
-    }
-    .footer-menu-social{
-        padding: 0 !important;
-    }
-  
-    .footer-menu-main{
-        font-size: 10px;
-        padding: 0 !important;
-        margin: 0 !important;
-
-    }
-    .footer-menu-side{
-        font-size: 10px;
-    }
-    .bottom-site-logo{
-        display: none;
-        visibility:hidden;
-        columns: 1;
-        width: 0px;
-    }
-    .footer-logo-row{
-        display: none;
-        }
-
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (max-width: 768px) {
-      
-    .dropdown-menu.show:{
-        max-width: 18px !important;
-        min-width: 18px !important;
-        width: 18px !important;
-    }
-    .nav-sub-text{
-        font-size: 15px;
-    }
-    .nav-main-text{
-        font-size: 18px;
-    }
-    #main-bottom-logo{
-        width: 200px;
-        height: 200px;
-    }
-    .nav-main-text{
-        font-size: 20px;
-        padding-left: 20px !important;
-    }
-    .footer-menu-contact{
-        font-size: 10px; 
-    }
-    .footer-menu-social-logo{
-        font-size: 25px; 
-    }
-    .footer-menu-social{
-        display:block
-    }
-  
-    .footer-menu-main{
-        font-size: 10px;
-        display:flex;
-        margin-top: 30px !important;
-    }
-    .footer-menu-side{
-        font-size: 10px;
-        display:flex;
-        margin-top: 30px !important;
-        flex-direction: row;
-    }
-    .footer-site-logo{
-        columns: 1;
-        width: 0px;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        
-    }
-    .bi-pinterest{
-        width: 25px ;
-    }
-    .footer-contact-icon{
-        display: none;
-    }
-}
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 769px) {
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
 
 
-    #main-bottom-logo{
-        width: 200px;
-        height: 200px;
+    .nav-logo-media{
+        text-align: center;
     }
-    .footer-menu-contact{
-        font-size: 15px;   
-    }
-    .footer-menu-social-logo{
-        font-size: 40px;
-        
-    }
-    .footer-site-logo{
-        display: flex;
-     
-    }
-    
-} 
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 993px) {
-
-
-    #main-bottom-logo{
-        width: 250px;
-        height: 250px;
-    }
-    .carousel-width{
-        width: 450px;
-        height: 550px ;
-    }
-    .footer-menu-contact{
-        font-size: 18px;
-    }
-    .footer-menu-social-logo{
+    span.nav-logo-text{
         font-size: 50px;
+     }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (max-width: 767px) {
+    .nav-logo-media{
+        text-align: center;
     }
+    span.nav-logo-text{
+        font-size: 50px;
+     }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
 
-
-
-}
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-
-    p.promo-front-pg{
-        font-size: 25px;
-    }
-    #main-bottom-logo{
-        width: 250px;
-        height: 250px;
-    }
-
-    .carousel-width{
-        width: 450px;
-        height: 550px ;
-    }
-    .footer-menu-contact{
-        font-size: 18px;
-    }
-    .footer-menu-social-logo{
-      font-size: 50px;
-    }
-
-
-} 
+ }
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {...}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {...} 
